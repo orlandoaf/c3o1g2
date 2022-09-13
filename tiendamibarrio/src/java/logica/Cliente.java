@@ -78,7 +78,7 @@ public class Cliente {
     }
     
     //Consultar clientes
-    public List<Cliente> consultarclientes() throws SQLException{
+    public List<Cliente> consultarClientes() throws SQLException{
         List<Cliente> clientes = new ArrayList<>();
         ConexionBD conexion = new ConexionBD();
         String sql="SELECT * FROM clientes;";
@@ -100,7 +100,6 @@ public class Cliente {
         }finally{
         conexion.cerrarConexion();
         }
-    
         return clientes;
     }
     

@@ -25,7 +25,7 @@ public class DemoClientes {
 //        System.out.println(a.actualizarCliente());
         System.out.println(a.eliminarCliente());
 
-        List<Cliente> clientes = a.consultarclientes();
+        List<Cliente> clientes = a.consultarClientes();
         for(Cliente ax: clientes){
             System.out.println(ax.toString());
         }
